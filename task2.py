@@ -12,3 +12,28 @@
 *
 ===================================================
 """
+#ef letter(user):
+#   char = {}
+#   for i in user:
+#       if i in char:
+#           char[i]=char[i]+1
+#           return char[i]
+#       else:
+#           b=char[i] = 1
+#           return b
+
+
+
+
+#def main():
+#    user = input('Write something:')
+#    result = letter(user)
+#    #print('Broj svih karaktera u', user, 'je:\n' +str(result))
+#    print("Count of all characters in GeeksforGeeks is :\n "+ str(result))
+#main()
+all_freq = {}
+test_str = "GeeksforGeeks"
+for i in test_str:
+      all_freq[i]=all_freq[i, 0] + 1
+      
+print ("Count of all characters in GeeksforGeeks is :\n "+ str(all_freq))

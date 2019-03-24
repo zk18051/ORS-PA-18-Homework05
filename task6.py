@@ -16,3 +16,8 @@
 * Use main() function to test your solution.
 ===================================================
 """
+print('File must have same path with project.')
+file = input('Enter a file name:')
+f = open(file ,'r+')
+print(f.read())
+f.close()

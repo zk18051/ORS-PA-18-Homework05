@@ -15,3 +15,17 @@
 * Use main() function to test your solution.
 ===================================================
 """
+
+def numpower(num,expo):
+    a = num**expo
+    return a
+
+def main():
+    num = 4
+    expo = -.5
+    number = numpower(num,expo)
+    print(number)
+
+main()
+
+#Ne radi za slucaj unosa stringova.

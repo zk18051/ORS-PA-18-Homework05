@@ -13,3 +13,17 @@
 * Use main() function to test your solution.
 ===================================================
 """
+def dec2oct(dec):
+    octal = " "
+    while dec > 0:
+        num = dec % 8
+        dec = dec // 8
+        octal = str(num) + octal
+    return octal
+
+def main():
+    dec = 64
+    octa = dec2oct(dec)
+    print('Broj',dec,'u oktalnom sistemu je jednak:',octa)
+
+main()
